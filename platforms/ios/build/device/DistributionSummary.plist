@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AfExample.ipa</key>
+	<array>
+		<dict>
+			<key>architectures</key>
+			<array>
+				<string>arm64</string>
+			</array>
+			<key>certificate</key>
+			<dict>
+				<key>SHA1</key>
+				<string>1A5E2258DF15313B84FA5FEFD512244ADD60EA15</string>
+				<key>dateExpires</key>
+				<string>08/10/2021</string>
+				<key>type</key>
+				<string>Apple Development</string>
+			</dict>
+			<key>entitlements</key>
+			<dict>
+				<key>application-identifier</key>
+				<string>4PWGGU3944.com.appsflyer.AFExample</string>
+				<key>aps-environment</key>
+				<string>development</string>
+				<key>com.apple.developer.associated-domains</key>
+				<array>
+					<string>applinks:paz.onelink.me</string>
+				</array>
+				<key>com.apple.developer.team-identifier</key>
+				<string>4PWGGU3944</string>
+				<key>get-task-allow</key>
+				<true/>
+			</dict>
+			<key>name</key>
+			<string>AfExample.app</string>
+			<key>profile</key>
+			<dict>
+				<key>UUID</key>
+				<string>37b00b06-842b-461c-a08b-56e0343c7673</string>
+				<key>name</key>
+				<string>iOS Team Provisioning Profile: com.appsflyer.AFExample</string>
+			</dict>
+			<key>team</key>
+			<dict>
+				<key>id</key>
+				<string>4PWGGU3944</string>
+				<key>name</key>
+				<string>Paz Lavi</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

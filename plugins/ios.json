@@ -1,0 +1,32 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "cordova-plugin-appsflyer-sdk": {
+      "PACKAGE_NAME": "com.appsflyer.AFExample"
+    },
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "com.appsflyer.AFExample"
+    },
+    "cordova-plugin-firebase-messaging": {
+      "IOS_FIREBASE_MESSAGING_VERSION": "~> 6.32.2",
+      "ANALYTICS_COLLECTION_ENABLED": "true",
+      "AUTOMATIC_SCREEN_REPORTING_ENABLED": "true",
+      "IOS_FIREBASE_ANALYTICS_VERSION": "~> 6.32.2",
+      "PACKAGE_NAME": "com.appsflyer.AFExample"
+    }
+  },
+  "dependent_plugins": {
+    "cordova-plugin-firebase-analytics": {
+      "ANALYTICS_COLLECTION_ENABLED": "true",
+      "AUTOMATIC_SCREEN_REPORTING_ENABLED": "true",
+      "IOS_FIREBASE_ANALYTICS_VERSION": "~> 6.32.2",
+      "PACKAGE_NAME": "com.appsflyer.AFExample"
+    }
+  }
+}

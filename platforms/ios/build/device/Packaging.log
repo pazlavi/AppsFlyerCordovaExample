@@ -1,0 +1,207 @@
+2020-10-15 11:19:44 +0000 [MT] Initial pipeline context: <IDEDistributionProcessingPipelineContext: 0x7f9dd6a0b8a0; archive(resolved)='<IDEArchive: 0x7f9dd64ad7c0>', distributionTask(resolved)='2', distributionDestination(resolved)='1', distributionMethod(resolved)='<IDEDistributionMethodDevelopmentSigned: 0x7f9dd6618920>', team(resolved)='<IDEProvisioningBasicTeam: 0x7f9dd61c1b90; teamID='4PWGGU3944', teamName='Paz Lavi'>'>
+	Chain (13, self inclusive):
+	<IDEDistributionProcessingPipelineContext: 0x7f9dd6a0b8a0; archive = '<IDEArchive: 0x7f9dd64ad7c0>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7f9dd6618920>', team='<IDEProvisioningBasicTeam: 0x7f9dd61c1b90; teamID='4PWGGU3944', teamName='Paz Lavi'>'>
+	<IDEDistributionProcessingPipelineContext: 0x7f9dd64bcd20; archive = '<IDEArchive: 0x7f9dd64ad7c0>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7f9dd6618920>', team='<IDEProvisioningBasicTeam: 0x7f9dd61c1b90; teamID='4PWGGU3944', teamName='Paz Lavi'>'>
+	<IDEDistributionContext: 0x7f9dd6a16eb0; archive = '<IDEArchive: 0x7f9dd64ad7c0>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7f9dd6618920>', team='<IDEProvisioningBasicTeam: 0x7f9dd61c1b90; teamID='4PWGGU3944', teamName='Paz Lavi'>'>
+	<IDEDistributionContext: 0x7f9dd64f2b40; archive = '<IDEArchive: 0x7f9dd64ad7c0>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7f9dd6618920>', team='<IDEProvisioningBasicTeam: 0x7f9dd61c1b90; teamID='4PWGGU3944', teamName='Paz Lavi'>'>
+	<IDEDistributionContext: 0x7f9dd64f1110; archive = '<IDEArchive: 0x7f9dd64ad7c0>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7f9dd6618920>', team='<IDEProvisioningBasicTeam: 0x7f9dd61c1b90; teamID='4PWGGU3944', teamName='Paz Lavi'>'>
+	<IDEDistributionContext: 0x7f9dd64ef890; archive = '<IDEArchive: 0x7f9dd64ad7c0>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7f9dd6618920>', team='<IDEProvisioningBasicTeam: 0x7f9dd61c1b90; teamID='4PWGGU3944', teamName='Paz Lavi'>'>
+	<IDEDistributionContext: 0x7f9dd64eb7b0; archive = '<IDEArchive: 0x7f9dd64ad7c0>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7f9dd6618920>', team='<IDEProvisioningBasicTeam: 0x7f9dd61c1b90; teamID='4PWGGU3944', teamName='Paz Lavi'>'>
+	<IDEDistributionContext: 0x7f9dd64dd670; archive = '<IDEArchive: 0x7f9dd64ad7c0>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7f9dd6618920>', team='<IDEProvisioningBasicTeam: 0x7f9dd61c1b90; teamID='4PWGGU3944', teamName='Paz Lavi'>'>
+	<IDEDistributionContext: 0x7f9dd14e9540; archive = '<IDEArchive: 0x7f9dd64ad7c0>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7f9dd6618920>', team='<IDEProvisioningBasicTeam: 0x7f9dd61c1b90; teamID='4PWGGU3944', teamName='Paz Lavi'>'>
+	<IDEDistributionContext: 0x7f9dd61adde0; archive = '<IDEArchive: 0x7f9dd64ad7c0>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7f9dd6618920>', team='(null)'>
+	<IDEDistributionContext: 0x7f9dd661bce0; archive = '<IDEArchive: 0x7f9dd64ad7c0>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7f9dd6618920>', team='(null)'>
+	<IDEDistributionContext: 0x7f9dd64bb9b0; archive = '<IDEArchive: 0x7f9dd64ad7c0>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7f9dd6618920>', team='(null)'>
+	<IDEDistributionContext: 0x7f9dd64adde0; archive = '<IDEArchive: 0x7f9dd64ad7c0>', distributionMethod='(null)', team='(null)'>
+</IDEDistributionProcessingPipelineContext: 0x7f9dd6a0b8a0>
+2020-10-15 11:19:44 +0000 [MT] Processing step: IDEDistributionCreateDestRootStep
+2020-10-15 11:19:44 +0000 [MT] Processing step: IDEDistributionCopyItemStep
+2020-10-15 11:19:44 +0000 [MT] Running /usr/bin/ditto '-V' '/Users/pazlavi/Paz/dev/work/Cordova/AFExample/platforms/ios/AfExample.xcarchive/Products/Applications/AfExample.app' '/var/folders/jf/h4m4v3hn1gx3mfk23b79tydr0000gn/T/XcodeDistPipeline.~~~oqnBNg/Root/Payload/AfExample.app'
+2020-10-15 11:19:44 +0000  >>> Copying /Users/pazlavi/Paz/dev/work/Cordova/AFExample/platforms/ios/AfExample.xcarchive/Products/Applications/AfExample.app 
+2020-10-15 11:19:45 +0000  copying file ./_CodeSignature/CodeResources ... 
+2020-10-15 11:19:45 +0000  8285 bytes for ./_CodeSignature/CodeResources
+2020-10-15 11:19:45 +0000  copying file ./MainViewController.nib ... 
+2020-10-15 11:19:45 +0000  980 bytes for ./MainViewController.nib
+copying file ./AppIcon60x60@2x.png ... 
+2020-10-15 11:19:45 +0000  3129 bytes for ./AppIcon60x60@2x.png
+copying file ./config.xml ... 
+2020-10-15 11:19:45 +0000  2704 bytes for ./config.xml
+2020-10-15 11:19:45 +0000  copying file ./www/index.html ... 
+2020-10-15 11:19:45 +0000  2382 bytes for ./www/index.html
+copying file ./www/cordova.js ... 
+2020-10-15 11:19:45 +0000  66883 bytes for ./www/cordova.js
+2020-10-15 11:19:45 +0000  copying file ./www/css/index.css ... 
+2020-10-15 11:19:45 +0000  3723 bytes for ./www/css/index.css
+2020-10-15 11:19:45 +0000  copying file ./www/plugins/cordova-plugin-appsflyer-sdk/www/appsflyer.js ... 
+2020-10-15 11:19:45 +0000  7815 bytes for ./www/plugins/cordova-plugin-appsflyer-sdk/www/appsflyer.js
+2020-10-15 11:19:45 +0000  copying file ./www/plugins/cordova-plugin-appsflyer-sdk/www/AppsFlyerError.js ... 
+2020-10-15 11:19:45 +0000  419 bytes for ./www/plugins/cordova-plugin-appsflyer-sdk/www/AppsFlyerError.js
+2020-10-15 11:19:45 +0000  copying file ./www/js/index.js ... 
+2020-10-15 11:19:45 +0000  2740 bytes for ./www/js/index.js
+2020-10-15 11:19:45 +0000  copying file ./www/img/logo.png ... 
+2020-10-15 11:19:45 +0000  21814 bytes for ./www/img/logo.png
+2020-10-15 11:19:45 +0000  copying file ./www/cordova-js-src/exec.js ... 
+2020-10-15 11:19:45 +0000  5402 bytes for ./www/cordova-js-src/exec.js
+2020-10-15 11:19:45 +0000  copying file ./www/cordova-js-src/plugin/ios/wkwebkit.js ... 
+2020-10-15 11:19:45 +0000  1454 bytes for ./www/cordova-js-src/plugin/ios/wkwebkit.js
+2020-10-15 11:19:45 +0000  copying file ./www/cordova-js-src/plugin/ios/logger.js ... 
+2020-10-15 11:19:45 +0000  10180 bytes for ./www/cordova-js-src/plugin/ios/logger.js
+2020-10-15 11:19:45 +0000  copying file ./www/cordova-js-src/plugin/ios/console.js ... 
+2020-10-15 11:19:45 +0000  6873 bytes for ./www/cordova-js-src/plugin/ios/console.js
+2020-10-15 11:19:45 +0000  copying file ./www/cordova-js-src/plugin/ios/launchscreen.js ... 
+2020-10-15 11:19:45 +0000  1076 bytes for ./www/cordova-js-src/plugin/ios/launchscreen.js
+2020-10-15 11:19:45 +0000  copying file ./www/cordova-js-src/platform.js ... 
+2020-10-15 11:19:45 +0000  1627 bytes for ./www/cordova-js-src/platform.js
+2020-10-15 11:19:45 +0000  copying file ./www/cordova_plugins.js ... 
+2020-10-15 11:19:45 +0000  726 bytes for ./www/cordova_plugins.js
+2020-10-15 11:19:45 +0000  copying file ./Assets.car ... 
+2020-10-15 11:19:45 +0000  228207 bytes for ./Assets.car
+2020-10-15 11:19:45 +0000  copying file ./AppIcon76x76@2x~ipad.png ... 
+2020-10-15 11:19:45 +0000  4045 bytes for ./AppIcon76x76@2x~ipad.png
+2020-10-15 11:19:45 +0000  copying file ./AfExample ... 
+2020-10-15 11:19:45 +0000  541824 bytes for ./AfExample
+2020-10-15 11:19:45 +0000  copying file ./CDVLaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib/objects-13.0+.nib ... 
+2020-10-15 11:19:45 +0000  2434 bytes for ./CDVLaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib/objects-13.0+.nib
+2020-10-15 11:19:45 +0000  copying file ./CDVLaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib/runtime.nib ... 
+2020-10-15 11:19:45 +0000  2859 bytes for ./CDVLaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib/runtime.nib
+2020-10-15 11:19:45 +0000  copying file ./CDVLaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib/objects-13.0+.nib ... 
+2020-10-15 11:19:45 +0000  896 bytes for ./CDVLaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib/objects-13.0+.nib
+2020-10-15 11:19:45 +0000  copying file ./CDVLaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib/runtime.nib ... 
+2020-10-15 11:19:45 +0000  896 bytes for ./CDVLaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib/runtime.nib
+2020-10-15 11:19:45 +0000  copying file ./CDVLaunchScreen.storyboardc/Info.plist ... 
+2020-10-15 11:19:45 +0000  258 bytes for ./CDVLaunchScreen.storyboardc/Info.plist
+2020-10-15 11:19:45 +0000  copying file ./embedded.mobileprovision ... 
+2020-10-15 11:19:45 +0000  9615 bytes for ./embedded.mobileprovision
+2020-10-15 11:19:45 +0000  copying file ./Info.plist ... 
+2020-10-15 11:19:45 +0000  1504 bytes for ./Info.plist
+2020-10-15 11:19:45 +0000  copying file ./PkgInfo ... 
+2020-10-15 11:19:45 +0000  8 bytes for ./PkgInfo
+2020-10-15 11:19:45 +0000 [MT] /usr/bin/ditto exited with 0
+2020-10-15 11:19:45 +0000 [MT] Processing step: IDEDistributionEmbedProfileStep
+2020-10-15 11:19:45 +0000 [MT] Processing step: IDEDistributionInfoPlistStep
+2020-10-15 11:19:45 +0000 [MT] Skipping step: IDEDistributionInfoPlistStep because it said so
+2020-10-15 11:19:45 +0000 [MT] Processing step: IDEDistributionAppThinningPlistStep
+2020-10-15 11:19:45 +0000 [MT] Skipping step: IDEDistributionAppThinningPlistStep because it said so
+2020-10-15 11:19:45 +0000 [MT] Processing step: IDEDistributionCompileBitcodeStep
+2020-10-15 11:19:45 +0000 [MT] Skipping step: IDEDistributionCompileBitcodeStep because it said so
+2020-10-15 11:19:45 +0000 [MT] Processing step: IDEDistributionCodeSlimmingStep
+2020-10-15 11:19:45 +0000 [MT] Processing step: IDEDistributionCopyBCSymbolMapsStep
+2020-10-15 11:19:45 +0000 [MT] Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2020-10-15 11:19:45 +0000 [MT] Processing step: IDEDistributionSymbolsStep
+2020-10-15 11:19:45 +0000 [MT] Skipping step: IDEDistributionSymbolsStep because it said so
+2020-10-15 11:19:45 +0000 [MT] Processing step: IDEDistributionAppThinningStep
+2020-10-15 11:19:45 +0000 [MT] Skipping step: IDEDistributionAppThinningStep because it said so
+2020-10-15 11:19:45 +0000 [MT] Processing step: IDEDistributionArchThinningStep
+2020-10-15 11:19:45 +0000 [MT] Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/jf/h4m4v3hn1gx3mfk23b79tydr0000gn/T/XcodeDistPipeline.~~~oqnBNg/Root/Payload/AfExample.app/AfExample' '-verify_arch' 'arm64e'
+2020-10-15 11:19:45 +0000 [MT] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2020-10-15 11:19:45 +0000 [MT] Skipping architecture thinning for item "AfExample" because arch "arm64e" wasn't found
+2020-10-15 11:19:45 +0000 [MT] Processing step: IDEDistributionODRStep
+2020-10-15 11:19:45 +0000 [MT] Processing step: IDEDistributionStripXattrsStep
+2020-10-15 11:19:45 +0000 [MT] Running /usr/bin/xattr '-crs' '/var/folders/jf/h4m4v3hn1gx3mfk23b79tydr0000gn/T/XcodeDistPipeline.~~~oqnBNg/Root/Payload/AfExample.app'
+2020-10-15 11:19:45 +0000 [MT] /usr/bin/xattr exited with 0
+2020-10-15 11:19:45 +0000 [MT] Processing step: IDEDistributionCodesignStep
+2020-10-15 11:19:45 +0000 [MT] Entitlements for <IDEDistributionItem: 0x7f9dd6708680; bundleID='com.appsflyer.AFExample', path='<DVTFilePath:0x7f9dd64ad0a0:'/Users/pazlavi/Paz/dev/work/Cordova/AFExample/platforms/ios/AfExample.xcarchive/Products/Applications/AfExample.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f9dd170b990; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f9dd6a10bd0; name='Apple Development: Paz Lavi (5UP4J7CA6V)', hash='1A5E2258DF15313B84FA5FEFD512244ADD60EA15', serialNumber='<DVTSigningCertificateSerialNumber: 0x7f9dd64f73c0>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-10-08 07:26:10 +0000''>', entitlements='{
+    "application-identifier" = "4PWGGU3944.com.appsflyer.AFExample";
+    "aps-environment" = development;
+    "com.apple.developer.associated-domains" =     (
+        "applinks:paz.onelink.me"
+    );
+    "com.apple.developer.team-identifier" = 4PWGGU3944;
+    "get-task-allow" = 1;
+}', teamID='4PWGGU3944', identifier='com.appsflyer.AFExample', executablePath='<DVTFilePath:0x7f9dd14f9130:'/Users/pazlavi/Paz/dev/work/Cordova/AFExample/platforms/ios/AfExample.xcarchive/Products/Applications/AfExample.app/AfExample'>', hardenedRuntime='0'>'>: {
+    "application-identifier" = "4PWGGU3944.com.appsflyer.AFExample";
+    "aps-environment" = development;
+    "com.apple.developer.associated-domains" =     (
+        "applinks:paz.onelink.me"
+    );
+    "com.apple.developer.team-identifier" = 4PWGGU3944;
+    "get-task-allow" = 1;
+}
+2020-10-15 11:19:45 +0000 [MT] Writing entitlements for <IDEDistributionItem: 0x7f9dd6708680; bundleID='com.appsflyer.AFExample', path='<DVTFilePath:0x7f9dd64ad0a0:'/Users/pazlavi/Paz/dev/work/Cordova/AFExample/platforms/ios/AfExample.xcarchive/Products/Applications/AfExample.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f9dd170b990; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f9dd6a11140; name='Apple Development: Paz Lavi (5UP4J7CA6V)', hash='1A5E2258DF15313B84FA5FEFD512244ADD60EA15', serialNumber='<DVTSigningCertificateSerialNumber: 0x7f9dd64fed10>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-10-08 07:26:10 +0000''>', entitlements='{
+    "application-identifier" = "4PWGGU3944.com.appsflyer.AFExample";
+    "aps-environment" = development;
+    "com.apple.developer.associated-domains" =     (
+        "applinks:paz.onelink.me"
+    );
+    "com.apple.developer.team-identifier" = 4PWGGU3944;
+    "get-task-allow" = 1;
+}', teamID='4PWGGU3944', identifier='com.appsflyer.AFExample', executablePath='<DVTFilePath:0x7f9dd14f9130:'/Users/pazlavi/Paz/dev/work/Cordova/AFExample/platforms/ios/AfExample.xcarchive/Products/Applications/AfExample.app/AfExample'>', hardenedRuntime='0'>'> to: /var/folders/jf/h4m4v3hn1gx3mfk23b79tydr0000gn/T/XcodeDistPipeline.~~~oqnBNg/entitlements~~~qekKTQ
+2020-10-15 11:19:45 +0000 [MT] Running /usr/bin/codesign '-vvv' '--force' '--sign' '1A5E2258DF15313B84FA5FEFD512244ADD60EA15' '--entitlements' '/var/folders/jf/h4m4v3hn1gx3mfk23b79tydr0000gn/T/XcodeDistPipeline.~~~oqnBNg/entitlements~~~qekKTQ' '--preserve-metadata=identifier,flags,runtime' '/var/folders/jf/h4m4v3hn1gx3mfk23b79tydr0000gn/T/XcodeDistPipeline.~~~oqnBNg/Root/Payload/AfExample.app'
+2020-10-15 11:19:45 +0000  /var/folders/jf/h4m4v3hn1gx3mfk23b79tydr0000gn/T/XcodeDistPipeline.~~~oqnBNg/Root/Payload/AfExample.app: replacing existing signature
+2020-10-15 11:19:45 +0000  /var/folders/jf/h4m4v3hn1gx3mfk23b79tydr0000gn/T/XcodeDistPipeline.~~~oqnBNg/Root/Payload/AfExample.app: signed app bundle with Mach-O thin (arm64) [com.appsflyer.AFExample]
+2020-10-15 11:19:45 +0000 [MT] /usr/bin/codesign exited with 0
+2020-10-15 11:19:45 +0000 [MT] Processing step: IDEDistributionZipODRItemStep
+2020-10-15 11:19:45 +0000 [MT] Skipping step: IDEDistributionZipODRItemStep because it said so
+2020-10-15 11:19:45 +0000 [MT] Processing step: IDEDistributionCreateIPAStep
+2020-10-15 11:19:45 +0000 [MT] Running /usr/bin/ditto '-V' '-c' '-k' '--norsrc' '/var/folders/jf/h4m4v3hn1gx3mfk23b79tydr0000gn/T/XcodeDistPipeline.~~~oqnBNg/Root' '/var/folders/jf/h4m4v3hn1gx3mfk23b79tydr0000gn/T/XcodeDistPipeline.~~~oqnBNg/Packages/AfExample.ipa'
+2020-10-15 11:19:45 +0000  >>> Copying /var/folders/jf/h4m4v3hn1gx3mfk23b79tydr0000gn/T/XcodeDistPipeline.~~~oqnBNg/Root 
+2020-10-15 11:19:45 +0000  copying file ./Payload/AfExample.app/_CodeSignature/CodeResources ... 
+2020-10-15 11:19:45 +0000  8285 bytes for ./Payload/AfExample.app/_CodeSignature/CodeResources
+copying file ./Payload/AfExample.app/MainViewController.nib ... 
+2020-10-15 11:19:45 +0000  980 bytes for ./Payload/AfExample.app/MainViewController.nib
+copying file ./Payload/AfExample.app/AppIcon60x60@2x.png ... 
+2020-10-15 11:19:45 +0000  3129 bytes for ./Payload/AfExample.app/AppIcon60x60@2x.png
+copying file ./Payload/AfExample.app/config.xml ... 
+2020-10-15 11:19:45 +0000  2704 bytes for ./Payload/AfExample.app/config.xml
+copying file ./Payload/AfExample.app/www/index.html ... 
+2020-10-15 11:19:45 +0000  2382 bytes for ./Payload/AfExample.app/www/index.html
+2020-10-15 11:19:45 +0000  copying file ./Payload/AfExample.app/www/cordova.js ... 
+2020-10-15 11:19:45 +0000  66883 bytes for ./Payload/AfExample.app/www/cordova.js
+2020-10-15 11:19:45 +0000  copying file ./Payload/AfExample.app/www/css/index.css ... 
+2020-10-15 11:19:45 +0000  3723 bytes for ./Payload/AfExample.app/www/css/index.css
+2020-10-15 11:19:45 +0000  copying file ./Payload/AfExample.app/www/plugins/cordova-plugin-appsflyer-sdk/www/appsflyer.js ... 
+2020-10-15 11:19:45 +0000  7815 bytes for ./Payload/AfExample.app/www/plugins/cordova-plugin-appsflyer-sdk/www/appsflyer.js
+copying file ./Payload/AfExample.app/www/plugins/cordova-plugin-appsflyer-sdk/www/AppsFlyerError.js ... 
+2020-10-15 11:19:45 +0000  419 bytes for ./Payload/AfExample.app/www/plugins/cordova-plugin-appsflyer-sdk/www/AppsFlyerError.js
+2020-10-15 11:19:45 +0000  copying file ./Payload/AfExample.app/www/js/index.js ... 
+2020-10-15 11:19:45 +0000  2740 bytes for ./Payload/AfExample.app/www/js/index.js
+2020-10-15 11:19:45 +0000  copying file ./Payload/AfExample.app/www/img/logo.png ... 
+2020-10-15 11:19:45 +0000  21814 bytes for ./Payload/AfExample.app/www/img/logo.png
+2020-10-15 11:19:45 +0000  copying file ./Payload/AfExample.app/www/cordova-js-src/exec.js ... 
+2020-10-15 11:19:45 +0000  5402 bytes for ./Payload/AfExample.app/www/cordova-js-src/exec.js
+2020-10-15 11:19:45 +0000  copying file ./Payload/AfExample.app/www/cordova-js-src/plugin/ios/wkwebkit.js ... 
+2020-10-15 11:19:45 +0000  1454 bytes for ./Payload/AfExample.app/www/cordova-js-src/plugin/ios/wkwebkit.js
+copying file ./Payload/AfExample.app/www/cordova-js-src/plugin/ios/logger.js ... 
+2020-10-15 11:19:45 +0000  10180 bytes for ./Payload/AfExample.app/www/cordova-js-src/plugin/ios/logger.js
+2020-10-15 11:19:45 +0000  copying file ./Payload/AfExample.app/www/cordova-js-src/plugin/ios/console.js ... 
+2020-10-15 11:19:45 +0000  6873 bytes for ./Payload/AfExample.app/www/cordova-js-src/plugin/ios/console.js
+2020-10-15 11:19:45 +0000  copying file ./Payload/AfExample.app/www/cordova-js-src/plugin/ios/launchscreen.js ... 
+2020-10-15 11:19:45 +0000  1076 bytes for ./Payload/AfExample.app/www/cordova-js-src/plugin/ios/launchscreen.js
+copying file ./Payload/AfExample.app/www/cordova-js-src/platform.js ... 
+2020-10-15 11:19:45 +0000  1627 bytes for ./Payload/AfExample.app/www/cordova-js-src/platform.js
+copying file ./Payload/AfExample.app/www/cordova_plugins.js ... 
+2020-10-15 11:19:45 +0000  726 bytes for ./Payload/AfExample.app/www/cordova_plugins.js
+2020-10-15 11:19:45 +0000  copying file ./Payload/AfExample.app/Assets.car ... 
+2020-10-15 11:19:45 +0000  228207 bytes for ./Payload/AfExample.app/Assets.car
+copying file ./Payload/AfExample.app/AppIcon76x76@2x~ipad.png ... 
+2020-10-15 11:19:45 +0000  4045 bytes for ./Payload/AfExample.app/AppIcon76x76@2x~ipad.png
+copying file ./Payload/AfExample.app/AfExample ... 
+2020-10-15 11:19:45 +0000  541824 bytes for ./Payload/AfExample.app/AfExample
+2020-10-15 11:19:45 +0000  copying file ./Payload/AfExample.app/CDVLaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib/objects-13.0+.nib ... 
+2020-10-15 11:19:45 +0000  2434 bytes for ./Payload/AfExample.app/CDVLaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib/objects-13.0+.nib
+copying file ./Payload/AfExample.app/CDVLaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib/runtime.nib ... 
+2020-10-15 11:19:45 +0000  2859 bytes for ./Payload/AfExample.app/CDVLaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib/runtime.nib
+copying file ./Payload/AfExample.app/CDVLaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib/objects-13.0+.nib ... 
+2020-10-15 11:19:45 +0000  896 bytes for ./Payload/AfExample.app/CDVLaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib/objects-13.0+.nib
+copying file ./Payload/AfExample.app/CDVLaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib/runtime.nib ... 
+2020-10-15 11:19:45 +0000  896 bytes for ./Payload/AfExample.app/CDVLaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib/runtime.nib
+copying file ./Payload/AfExample.app/CDVLaunchScreen.storyboardc/Info.plist ... 
+2020-10-15 11:19:45 +0000  258 bytes for ./Payload/AfExample.app/CDVLaunchScreen.storyboardc/Info.plist
+copying file ./Payload/AfExample.app/embedded.mobileprovision ... 
+2020-10-15 11:19:45 +0000  9615 bytes for ./Payload/AfExample.app/embedded.mobileprovision
+2020-10-15 11:19:45 +0000  copying file ./Payload/AfExample.app/Info.plist ... 
+1504 bytes for ./Payload/AfExample.app/Info.plist
+copying file ./Payload/AfExample.app/PkgInfo ... 
+2020-10-15 11:19:45 +0000  8 bytes for ./Payload/AfExample.app/PkgInfo
+2020-10-15 11:19:45 +0000 [MT] /usr/bin/ditto exited with 0
+2020-10-15 11:19:45 +0000 [MT] Processing step: IDEDistributionAppStoreInformationStep
+2020-10-15 11:19:45 +0000 [MT] Skipping step: IDEDistributionAppStoreInformationStep because it said so
+2020-10-15 11:19:45 +0000 [MT] Processing step: IDEDistributionGenerateProcessedDistributionItems
+2020-10-15 11:19:45 +0000 [MT] IDEDistributionItem init <DVTFilePath:0x7f9dd64f4d30:'/var/folders/jf/h4m4v3hn1gx3mfk23b79tydr0000gn/T/XcodeDistPipeline.~~~oqnBNg/Root/Payload/AfExample.app'>
+2020-10-15 11:19:45 +0000 [MT] Processing step: IDEDistributionCreateManifestStep
