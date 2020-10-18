@@ -1,0 +1,1 @@
+{"plugins":["cordova-plugin-whitelist","cordova-plugin-appsflyer-sdk","cordova-plugin-firebase-messaging","cordova-plugin-firebase-analytics","cordova-support-android-plugin","cordova-support-google-services","cordova-plugin-androidx"]}
